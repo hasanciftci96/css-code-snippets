@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.04rem solid seashell;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+nav li {
+  display: inline-flex;
+
+}
+li a {
+  color: seashell;
+  text-decoration: underline;
+  margin: 0 1rem;
+}
+header img {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+
+.main-title {
+  margin-top: 75px;
+}
+
+.color-container {
+    border: 1px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container h3 {
+ margin: 18px 0 18px 5%;
+}
+
+.color-box {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.blue {
+    background-color: red;
+    color: white;
+}
+
+.pink {
+    background-color: #d957d9;
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.text-container{
+    margin: 10px auto;
+    border: 1px solid #a2a2a6;
+    padding: 10px;
+
+}
+
+.text-container h4{
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.font-box {
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.regular {
+    font-style: normal;
+}
+  
+.italic {
+    font-style: italic;
+}
+  
+.bold {
+    font-weight: 700;
+}
+
+table {
+    border: 1px solid #a2a2a6;
+    margin: 10px auto;
+    width: 100%;
+
+}
+
+thead {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: black .8px solid;
+}
+
+td {
+    border-top: black .8px solid;
+    background-color: lightgrey;
+    padding-left: 10px;
+}
+
+#banner {
+    background-image: url("download.jpeg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+  
+  #banner .content h1 {
+    border: 3px solid white;
+    position: relative;
+    top: 100px;
+    width: 400px;
+    margin: 10px auto;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+  }
+
+  
+  
+  
+  
+  #img {
+    background-image: url('download2.jpeg');
+    background-position: center;
+    height: 440px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+  }
+
+  #img h1 {
+    font-weight: 300;
+    color: white;
+    font-size: 32px;
+  }
+
+
+
+
+  .images .image-container {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+  body {
+    margin: 0 5px;
+}
+}
+
+
+.fav-teas {
+  background-color: #000;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-content: space-around;
+  justify-content: center;
+  color: white;
+}
+.type{
+  margin: 30px;
+}
+.type img {
+  height: 200px;
+  width: 300px;
+}
+
+.type h4 {
+  margin-top: 10px;
+}
